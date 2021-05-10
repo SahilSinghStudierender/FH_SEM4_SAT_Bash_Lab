@@ -26,7 +26,8 @@ Example for Encryption Key Name:
     Please enter the path to your private key
     /home/user/.ssh/private_key.pem
 
-The signature will be created and saved at the directory where the backup command has been executed.
+The signature will be created and saved at the directory where the backup command has been executed.  
+The Backup process is now done at can be found at /tmp/backup_name.tar.gz (the accurate Path will be outputted by the script)
 
 ## How to restore a backup
 For the restoration, you will need the public key associated with the private key which was used for the signature and the key for the decryption.
